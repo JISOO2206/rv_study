@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'kr.co.rv_study'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "kr.co.rv_study"
