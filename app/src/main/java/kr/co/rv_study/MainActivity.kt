@@ -25,33 +25,4 @@ class MainActivity : AppCompatActivity() {
         rv.layoutManager = LinearLayoutManager(this)
     }
 
-    override fun onStart() {
-        Log.d("main", "[start]")
-        super.onStart()
-    }
-
-    override fun onResume() {
-        Log.d("main", "[resume]")
-        super.onResume()
-    }
-
-    override fun onPause() {
-        Log.d("main", "[pause]")
-        super.onPause()
-    }
-
-    override fun onStop() {
-        Log.d("main", "[stop]")
-        super.onStop()
-    }
-
-    override fun onDestroy() {
-        Log.d("main", "[Destroy]")
-        super.onDestroy()
-    }
-
-    override fun onRestart() {
-        Log.d("main", "[reStart]")
-        super.onRestart()
-    }
 }
