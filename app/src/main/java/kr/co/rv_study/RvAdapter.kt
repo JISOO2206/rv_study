@@ -3,6 +3,7 @@ package kr.co.rv_study
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class RvAdapter(val items : MutableList<String>) : RecyclerView.Adapter<RvAdapter.ViewHolder>() {
@@ -25,7 +26,8 @@ class RvAdapter(val items : MutableList<String>) : RecyclerView.Adapter<RvAdapte
     inner class ViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
 
         fun bindItems(item : String){
-
+            val rv_text = itemView.findViewById<TextView>(R.id.rv_item)
+            rv_text.text = item
         }
 
     }

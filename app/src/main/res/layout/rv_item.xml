@@ -4,6 +4,7 @@
     android:layout_height="80dp">
 
     <TextView
+        android:id="@+id/rv_item"
         android:text="텍스트"
         android:textSize="20dp"
         android:layout_margin="10dp"
